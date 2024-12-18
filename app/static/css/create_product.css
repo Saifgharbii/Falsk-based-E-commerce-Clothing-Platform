@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container for the form */
+.container-fluid {
+  background-color: #ffffff;
+  padding: 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+/* Heading styling */
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Label styling */
+label {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Input and select box styling */
+.form-control, .form-control-file {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-control-file:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button styling */
+button {
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Return to Home button */
+a {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 576px) {
+  .container-fluid {
+      padding: 2rem;
+  }
+  h1 {
+      font-size: 2rem;
+  }
+}

@@ -1,0 +1,87 @@
+/* General body and layout settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container styling */
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Heading Styling */
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Input Styling */
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Alert styles */
+#alert-container .alert {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.alert-dismissible .btn-close {
+    padding: 0.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .form-container {
+        padding: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
